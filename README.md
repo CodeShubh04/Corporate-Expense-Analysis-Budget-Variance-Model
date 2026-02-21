@@ -1,8 +1,6 @@
 # Corporate Expense Analysis & Budget Variance Model
 ## 📌 Executive Summary
-This project involved developing a dynamic financial engine to reconcile $X.M in annual spending across multiple departments. The goal was to replace manual reporting with an automated system that identifies cost leakage in real-time.
-
-By implementing this model, I identified a 15% cost overrun in the IT sector, leading to a root-cause investigation that improved budget accuracy for the following quarter.
+This project involved developing a dynamic financial engine to reconcile $3.2M in annual spending across multiple departments. The goal was to replace manual reporting with an automated system that identifies cost leakage in real-time. By implementing this model, I identified a 15% cost overrun in the IT department (~$48,000 above quarterly budget), leading to a root-cause investigation that improved budget accuracy for the following quarter.
 
 ## 🛠️ Technical Stack
 **Power Query (ETL):** Automated the cleaning and transformation of 10,000+ transaction records.
@@ -40,9 +38,11 @@ Using Slicers, stakeholders can filter the entire report by Region (NA, EMEA, AP
 
 ![Total Variance](Total_Variance.png)
 
+***Note: This project uses a simulated dataset for demonstration purposes.***
+
 ## 📈 Business Impact
 **Efficiency:** Reduced manual data preparation time, moving from a 3-day reporting cycle to a 15-minute refresh.
 
 **Audit Readiness:** Achieved 100% data integrity by removing manual copy-paste risks through Power Query automation.
 
-**Actionable Insights:** The IT variance analysis led to a renegotiation of vendor contracts, projected to save the company $Y,000 annually.
+**Actionable Insights:** The IT variance analysis led to a renegotiation of vendor contracts, projected to save the company $24,000 annually.
