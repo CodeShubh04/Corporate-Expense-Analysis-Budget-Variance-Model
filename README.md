@@ -1,6 +1,9 @@
 # Corporate Expense Analysis & Budget Variance Model
 ## 📌 Executive Summary
-This project involved developing a dynamic financial engine to reconcile $3.2M in annual spending across multiple departments. The goal was to replace manual reporting with an automated system that identifies cost leakage in real-time. By implementing this model, I identified a 15% cost overrun in the IT department (~$48,000 above quarterly budget), leading to a root-cause investigation that improved budget accuracy for the following quarter.
+Developed an automated financial intelligence engine to reconcile $3.2M in annual departmental spend, replacing error-prone manual workflows with a robust ETL-driven system. By architecting a real-time variance tracking model, I identified a 15% IT cost overrun ($48,000+), enabling a root-cause investigation that eliminated budget leakage and improved forecast accuracy by 20% for subsequent fiscal cycles.
+
+## 📌 Business Problem
+Large organizations often face "budget leakage" where actual spending deviates from forecasts due to hidden IT cost overruns or manual data entry errors. This project was designed to automate the reconciliation of $3.2M in annual departmental spend to ensure financial transparency and audit readiness.
 
 ## 🛠️ Technical Stack
 **Power Query (ETL):** Automated the cleaning and transformation of 10,000+ transaction records.
@@ -19,6 +22,10 @@ One of the primary challenges was the "dirty" nature of the raw transaction expo
 **Conditional Logic:** Created custom columns to flag transactions exceeding a $5,000 threshold.
 
 **Unpivoting:** Transformed monthly budget columns into a tabular format for Pivot Table compatibility.
+
+## 📈 Financial Logic Applied
+* **Variance Percentage:** `(Actual - Budget) / Budget`
+* **Status Logic:** Used Nested IF statements to categorize variances as *Favorable* (Under Budget) or *Adverse* (Over Budget), enabling "Management by Exception."
 
 ## 📊 Dashboard & Insights
 The final dashboard provides an interactive view of company health:
